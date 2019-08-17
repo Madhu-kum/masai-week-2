@@ -1,0 +1,116 @@
+.class1{width:1400px;height:150px;background:gray;font-style: italic;text-align: auto;font-size:60px;margin-top: -70px}
+#id1{float:right;margin-top: -225px}
+.class2{font-style: italic;text-align: left;margin-top: 30px;display: flex }
+
+p::first-letter {
+    font-size: 50px;
+    font-display: bold;
+    color: black
+  }
+  
+  p::first-line {
+    color:#B71C1C;
+    font-size:40px;
+    font-display: bold;
+    text-decoration: underline;
+  }
+
+  .class3{
+    color:red;
+    font-size:20px;
+    font-display: bold;
+    text-align: center;
+
+  }
+  .flex-box {
+    display: flex;
+    background:gray;
+    margin-top: -50px;
+    justify-content:right;
+
+  }
+  
+  .flex-box div {
+    margin: 5px;
+    padding: 10px;
+  }
+  #box1 div {
+    flex-direction: row;
+  }
+  a{color:black;
+    font-size: 20px;
+text-decoration: none;}
+
+a:hover {
+    color:blue;
+  }
+
+  .class4{width:800px;height:110px;background:orangered;font-style: italic;text-align:center;font-size:30px;margin-top: 50px;padding-top:30px;margin-left: 250px}
+.class5{margin-left:100px; margin-top: 30px; font-size: 20px}
+.bg-color{background: mediumseagreen}
+.images-size{height:500px;width:600px}
+.class6{margin-left:250px; margin-top: 50px; font-size:50px;color:red;text-decoration:unset;font-style: italic}
+
+.bg-img{
+   background-image: url(/home/madhu/projects/masai/week_2/resources/qwertyu.webp);
+   background-position: fixed;
+   background-repeat: no-repeat;
+   background-size: cover;
+
+}
+
+.class7{height:500px; width:900px;margin-left:100px;margin-top: 20px}
+.class8{margin-left:100px; margin-top: 30px; font-size: 20px;float:left;color:red!important}
+
+#cont {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-rows: 350px 350px 350px 350px; 
+    grid-template-columns:400px 400px 400px 400px; 
+    padding: 20px;
+  }
+  
+  #cont div {
+    background:teal;
+    text-align: center;
+  }
+
+
+  .footer{width:1400px;height:150px;background:gray;font-style: italic;font-size:20px;margin-top:50px;text-align: center;
+}
+ .footer-box{
+     margin-top: 20px;
+     width: 800px;
+     text-align: center;
+     height: 50px;
+     font-size: 15px;
+     margin-left:250px;
+ }  
+
+ .flex-box1 {
+    display: flex;
+    background:navy;
+    margin-top: -50px;
+    justify-content:right;
+
+  }
+  
+  .flex-box1 div {
+    margin: 5px;
+    padding: 10px;
+  }
+  #box2 div {
+    flex-direction: row;
+  }
+
+    @media only screen and (max-width:800px) {
+        body{
+            background:skyblue !important;
+
+        }
+        .class2{
+            flex-direction: column;
+        }
+
+        }
+   
